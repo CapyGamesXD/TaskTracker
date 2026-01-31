@@ -5,6 +5,11 @@
 	rel="stylesheet"
 />
 
+<link
+	rel="apple-touch-icon"
+	href="//Users/lukesteenkamp/tasktrack/static/ChatGPT Image Jun 30, 2025 at 04_21_03 PM.png"
+/>
+
 <div class="centerdiv">
 	<a href="/" class="back"> Back</a>
 	<div class="divider"></div>
