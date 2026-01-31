@@ -1,0 +1,112 @@
+@import 'tailwindcss';
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	background-color: rgb(50, 50, 50);
+	color: white;
+	text-align: center;
+}
+
+.centerdiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: xxx-large;
+	font-weight: 600;
+	width: 250px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+h2 {
+	font-size: x-large;
+}
+
+.points {
+	font-weight: 500;
+	font-size: 6rem;
+	margin-top: 50px;
+	color: rgb(175, 173, 229);
+	margin-bottom: 20px;
+	line-height: 0.8;
+}
+a {
+	background-color: rgb(175, 173, 229);
+	width: 300px;
+	height: 80px;
+	border-radius: 50px;
+	font-size: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button {
+	background-color: rgb(175, 173, 229);
+	width: 300px;
+	height: 80px;
+	border-radius: 50px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.divider {
+	width: 300px;
+	height: 3px;
+	background-color: rgb(37, 37, 37);
+	border-radius: 40px;
+	margin-bottom: 30px;
+}
+.smallbutton {
+	background-color: rgb(175, 173, 229);
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-top: 30px;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+	text-align: center;
+}
+.addtext {
+	width: 30px;
+	font-size: 30px;
+}
+
+p {
+	margin-top: 0px;
+	width: 300px;
+}
+
+.back {
+	background-color: rgb(175, 173, 229);
+	width: 300px;
+	height: 60px;
+	border-radius: 50px;
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.infopage {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
