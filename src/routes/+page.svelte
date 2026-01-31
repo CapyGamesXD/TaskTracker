@@ -51,16 +51,19 @@
 	<button
 		on:click={() => {
 			points += 10;
+			update();
 		}}>+10</button
 	>
 	<button
 		on:click={() => {
 			points += 20;
+			update();
 		}}>+20</button
 	>
 	<button
 		on:click={() => {
 			points += 30;
+			update();
 		}}>+30</button
 	>
 
