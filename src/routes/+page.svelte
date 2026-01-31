@@ -12,12 +12,10 @@
 
 	function plusAdd() {
 		add += 5;
-		update();
 	}
 
 	function subtractAdd() {
 		add -= 5;
-		update();
 	}
 
 	function clear() {
