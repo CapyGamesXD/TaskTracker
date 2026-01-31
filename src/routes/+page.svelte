@@ -12,10 +12,12 @@
 
 	function plusAdd() {
 		add += 5;
+		update();
 	}
 
 	function subtractAdd() {
 		add -= 5;
+		update();
 	}
 
 	function clear() {
@@ -26,9 +28,6 @@
 	onMount(() => {
 		let storedpoints = Number(localStorage.getItem('points'));
 		points = storedpoints;
-		setInterval(() => {
-			update();
-		}, 120000);
 	});
 </script>
 
